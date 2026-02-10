@@ -9,7 +9,7 @@ import { Items } from "./components/pages/Items";
 
 export const router = createBrowserRouter([
   {
-    path: "/depthofdarkness/",
+    path: "/",
     Component: Root,
     children: [
       { index: true, Component: Home },
