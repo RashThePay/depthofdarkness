@@ -10,6 +10,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  base: "/depthofdarkness",
   resolve: {
     alias: {
       // Alias @ to the src directory
